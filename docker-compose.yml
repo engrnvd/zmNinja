@@ -1,0 +1,9 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+    volumes:
+      - .:/opt
+    working_dir: /opt
+    tty: true
