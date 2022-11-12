@@ -10,5 +10,5 @@ Go inside the container and run
 
 Run
 
-    ./build.sh
+    ./build_android.sh --debug
 
